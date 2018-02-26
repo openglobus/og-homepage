@@ -49,7 +49,8 @@
                 offset: [0, 32]
             }
         }));
-        
-        globus.planet.viewExtentArr([5.34, 45.10, 6.10, 45.27]);
-        globus.planet.RATIO_LOD = 0.9        
+
+	
+    globus.planet.viewExtentArr([5.54,45.141,5.93,45.23]);
+
 };
