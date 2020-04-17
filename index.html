@@ -1,6 +1,5 @@
-﻿<html>
+<html>
 <head>
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163824275-1"></script>
     <script>
@@ -14,17 +13,17 @@
     <title>OpenGlobus - a JavaScript library for interactive 3d maps</title>
     <meta property="og:title" content="OpenGlobus - a JavaScript library for interactive 3D maps and planets">
     <meta property="og:description" content="OpenGlobus is a javascript library designed to display interactive 3D maps and planets with map tiles, imagery and vector data, markers and 3d objects.">
-    <meta property="og:image" content="http://www.openglobus.org/favicon.png">
+    <meta property="og:image" content="//www.openglobus.org/favicon.png">
 
     <meta itemprop="name" content="OpenGLobus">
     <meta itemprop="description" content="OpenGlobus is a javascript library designed to display interactive 3D maps and planets with map tiles, imagery and vector data, markers and 3d objects.">
-    <meta itemprop="image" content="http://www.openglobus.org/favicon.png">
+    <meta itemprop="image" content="//www.openglobus.org/favicon.png">
 
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
 
@@ -38,15 +37,15 @@
     <link rel="stylesheet" href="./slicknav.min.css">
     <script src="./jquery.slicknav.min.js"></script>
 
-    <link rel="stylesheet" href="http://www.openglobus.org/og.css" type="text/css" />
-    <script src="./og.js"></script>
+    <link rel="stylesheet" href="//www.openglobus.org/og.css?21" type="text/css" />
+    <script src="//www.openglobus.org/og.js?27"></script>
 
     <link rel="stylesheet" href="./style.css" type="text/css" />
-    <script src="./start.js?3"></script>
+    <script src="./start.js?5"></script>
     <script>
         $(function () {
             $('#menu').slicknav({
-                'label': '<div class="logo">OpenGlobus <span>pre-Alpha v0.1</span></div>'
+                'label': '<div class="logo">openglobus</div>'
             });
         });
         hljs.initHighlightingOnLoad();
@@ -57,7 +56,7 @@
 
     <div class="container">
         <div id="nav">
-            <div class="bigLogo logo">OpenGlobus <span>preAlpha</span></div>
+            <div class="bigLogo logo">openglobus</div>
             <div class="floatright">
                 <ul id="menu">
                     <li>Overview</li>
@@ -72,7 +71,7 @@
     </div>
 
     <div class="container">
-        <div class="announcement">Nov 02, 2016 @ <a href="http://www.openglobus.org">openglobus.org</a>, site created!</div>
+        <div class="announcement">4/5/2020 waiting for the summer</div>
         <p style="margin-bottom:25px">
         Welcome to the OpenGlobus overview page! OpenGlobus is a javascript library designed to display interactive 3d maps and planets with map tiles, imagery and vector data, markers and 3d objects. It uses the WebGL technology, open source and completely free.
         </p>
@@ -85,7 +84,7 @@
         <code class="hljs javascript">
     var osm = new og.layer.XYZ("OpenStreetMap", {
         isBaseLayer: true,
-        url: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        url: "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
         visibility: true,
         attribution: 'Data @ <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://www.openstreetmap.org/copyright">ODbL</a>'
     });
@@ -188,7 +187,7 @@
     </div>
 
     <div class="bottomcontainer">
-        <div class="container"><div style="float:left">(c) 2017 OpenGlobus Contributors</div></div>
+        <div class="container"><div style="float:left">(c) 2020 Michael Gevlich</div></div>
     </div>
 </body>
 </html>

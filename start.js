@@ -1,8 +1,8 @@
-﻿function start() {
+function start() {
 
     var osm = new og.layer.XYZ("OpenStreetMap", {
         isBaseLayer: true,
-        url: "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        url: "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
         visibility: true,
         attribution: 'Data @ <a href="http://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="http://www.openstreetmap.org/copyright">ODbL</a>'
     });
@@ -14,6 +14,8 @@
         "layers": [osm],
         "autoActivated": true
     });
+
+    globus.planet.setRatioLod(1.3, 1.1);
 
     new og.layer.Vector("Markers", {
         clampToGround: true
@@ -38,6 +40,11 @@
             }
         }));
 
+    globus.planet.viewExtent(
+	new og.Extent(new og.LonLat(5.56707, 45.15679), 
+	new og.LonLat(5.88834, 45.22260)));
 	
-    globus.planet.viewExtentArr([5.54,45.141,5.93,45.23]);
+
+window.globus = globus;
+
 };

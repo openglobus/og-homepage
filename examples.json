@@ -6,6 +6,8 @@
   [ "Canvas Tiles", "Renders custom tiles with coordinates.", "http://openglobus.org/examples/canvasTiles/canvasTiles.html" ],
   [ "Custom Control", "Shows how to create custom controls.", "http://openglobus.org/examples/customControl/customControl.html" ],
   [ "Empty Terrain", "This example shows how to set terrain provider without elevation source.", "http://openglobus.org/examples/emptyTerrain/emptyTerrain.html" ],
+  [ "Mapbox Terrain", "This example shows how to set mapbox terrain provider.", "http://openglobus.org/examples/mapboxTerrain/mapboxTerrain.html" ],
+  [ "Bil16 Terrain", "This example shows how to set bil16 terrain provider.", "http://openglobus.org/examples/bilTerrain/bilTerrain.html" ],
   [ "GeoImage", "Example of displaying raster image on the ground.", "http://openglobus.org/examples/geoImage/geoImage.html" ],
   [ "GeoImage Dragging", "Example shows how to drag any geoImage object.", "http://openglobus.org/examples/geoImageDragging/geoImageDragging.html" ],
   [ "GeoTexture2d", "Example shows how to render custom framebuffer scene on the ground.", "http://openglobus.org/examples/geoTexture2d/geoTexture2d.html" ],
@@ -22,8 +24,11 @@
   [ "Height Factor and Level of Detail", "Example of how to change ground height factor and level of detail.", "http://openglobus.org/examples/heightFactor/heightFactor.html" ],
   [ "LayerSwitcher Control", "Shows how to use LayerSwitcher control.", "http://openglobus.org/examples/layerSwitcher/layerSwitcher.html" ],
   [ "Billboards Dragging", "Shows how to make billboards draggable", "http://openglobus.org/examples/billboardsDragging/billboardsDragging.html" ],
-  [ "Ground Polylines", "Example show how to make polyline run over ground and dragging.", "http://openglobus.org/examples/polylineOnTheGround/polylineOnTheGround.html" ],
+  [ "Clamped to The Ground Polylines ", "Example show how to make polyline run over ground and how to drag it.", "http://openglobus.org/examples/polylineOnTheGround/polylineOnTheGround.html" ],
   [ "Sun Activity", "Example of Sun Control activity.", "http://openglobus.org/examples/sunActivity/sunActivity.html" ],
   [ "Positioning on time", "Example shows how to create marker positioning on time", "http://openglobus.org/examples/markerOnTimer/markerOnTimer.html" ],
+  [ "Layer Fading Opacity", "Demonstrates layer fading opacity option and changing labels color", "http://openglobus.org/examples/layerFadingOpacity/layerFadingOpacity.html" ],
+  [ "Disable Layer Picking Events", "Show how to pick through the layers", "http://openglobus.org/examples/disableLayerPicking/disableLayerPicking.html" ],
+  [ "Layer Opacity", "Demonstrates layer opacity", "http://openglobus.org/examples/layerOpacity/layerOpacity.html" ],
   [ "...", "to be continued...", "http://openglobus.org/examples" ]
 ]
