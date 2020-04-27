@@ -19,7 +19,7 @@
   [ "Custom Scene", "Demostrates the engine basics, how to create pure WebGL scenes without globe.", "http://openglobus.org/examples/customScene/customScene.html" ],
   [ "Layer Z-Index", "Example of ordering layers using Z-index", "http://openglobus.org/examples/layerZIndex/layerZIndex.html" ],
   [ "Polylines", "Demonstrates how to draw orbits and lines with polyline entities.", "http://openglobus.org/examples/polylines/polylines.html" ],
-  [ "Strip", "Demonstrates how to expose strip(interrior) entities", "http://openglobus.org/examples/strip/strip.html" ]
+  [ "Strip", "Demonstrates how to expose strip(interrior) entities", "http://openglobus.org/examples/strip/strip.html" ],
   [ "Clocks", "Example shows how to create clocks and switch them for the Sun positioning.", "http://openglobus.org/examples/clocks/clocks.html" ],
   [ "Layer Picking", "Example shows common layer picking mechanics with 'mousemove' event.", "http://openglobus.org/examples/layerPicking/layerPicking.html" ],
   [ "Height Factor and Level of Detail", "Example of how to change ground height factor and level of detail.", "http://openglobus.org/examples/heightFactor/heightFactor.html" ],
