@@ -8,6 +8,7 @@
   [ "Empty Terrain", "This example shows how to set terrain provider without elevation source.", "http://openglobus.org/examples/emptyTerrain/emptyTerrain.html" ],
   [ "Mapbox Terrain", "This example shows how to set mapbox terrain provider.", "http://openglobus.org/examples/mapboxTerrain/mapboxTerrain.html" ],
   [ "Bil16 Terrain", "This example shows how to set bil16 terrain provider.", "http://openglobus.org/examples/bilTerrain/bilTerrain.html" ],
+  [ "Terrain Switcher", "This example shows how to change terrain provider.", "http://openglobus.org/examples/terrainSwitch/terrainSwitch.html" ],
   [ "GeoImage", "Example of displaying raster image on the ground.", "http://openglobus.org/examples/geoImage/geoImage.html" ],
   [ "GeoImage Dragging", "Example shows how to drag any geoImage object.", "http://openglobus.org/examples/geoImageDragging/geoImageDragging.html" ],
   [ "GeoTexture2d", "Example shows how to render custom framebuffer scene on the ground.", "http://openglobus.org/examples/geoTexture2d/geoTexture2d.html" ],
