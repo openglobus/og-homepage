@@ -33,6 +33,6 @@
   [ "Layer Fading Opacity", "Demonstrates layer fading opacity option and changing labels color", "http://openglobus.org/examples/layerFadingOpacity/layerFadingOpacity.html" ],
   [ "Disable Layer Picking Events", "Show how to pick through the layers", "http://openglobus.org/examples/disableLayerPicking/disableLayerPicking.html" ],
   [ "Layer Opacity", "Demonstrates layer opacity", "http://openglobus.org/examples/layerOpacity/layerOpacity.html" ],
-  [ "Circles on the ground", "Demonstrates how to draw ground relative circles", "http://openglobus.org/examples/circlesOnTheGround/circlesOnTheGround.html" ]
+  [ "Circles on the ground", "Demonstrates how to draw ground relative circles", "http://openglobus.org/examples/circlesOnTheGround/circlesOnTheGround.html" ],
   [ "...", "to be continued...", "http://openglobus.org/examples" ]
 ]
