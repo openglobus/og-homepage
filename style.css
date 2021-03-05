@@ -42,10 +42,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: blue;
 }
 
-.slicknav_nav a:hover{
-    background: white;
-    color: blue;
-}
+    .slicknav_nav a:hover {
+        background: white;
+        color: blue;
+    }
 
 .slicknav_nav {
     text-align: right;
@@ -59,9 +59,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     padding-right: 5px;
 }
 
-.slicknav_nav .slicknav_txtnode{
-    margin-right: 15px;
-}
+    .slicknav_nav .slicknav_txtnode {
+        margin-right: 15px;
+    }
 
 .slicknav_menu .slicknav_icon-bar {
     background-color: blue;
@@ -243,7 +243,7 @@ code {
     font-family: monospace;
 }
 
-.col-sm-4{
+.col-sm-4 {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -255,10 +255,10 @@ code {
 .row {
 }
 
-.row:before {
-    display: table;
-    content: " ";
-}
+    .row:before {
+        display: table;
+        content: " ";
+    }
 
 .example {
     display: block;
@@ -270,44 +270,53 @@ code {
     text-decoration: none;
 }
 
-.example p.description {
-    font-size: smaller;
-    margin: 12px 0;
-}
+    .example p.description {
+        font-size: smaller;
+        margin: 12px 0;
+    }
 
-.example small{
-    color: #7070ff;
-    font-size: 10px;
-}
+    .example small {
+        color: #7070ff;
+        font-size: 10px;
+    }
 
-.example:hover {
-    background-color: #e8e8ff;
-}
+    .example:hover {
+        background-color: #e8e8ff;
+    }
 
-.example a:focus, a:hover {
-    color:#0000c1;
-    text-decoration: underline;
-}
+    .example a:focus, a:hover {
+        color: #0000c1;
+        text-decoration: underline;
+    }
 
 b, strong {
     font-weight: 700;
 }
 
-#examplesContainer{
-    width:100%;
+#examplesContainer {
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 10px;
 }
 
 @media screen and (max-width: 40em) {
-    .col-sm-4{
+    .col-sm-4 {
         width: calc(50% - 30px);
     }
 }
 
 @media screen and (max-width: 30em) {
-    .col-sm-4{
+    .col-sm-4 {
         width: calc(100% - 30px);
     }
+}
+
+.icon-btn {
+    width: 25px;
+}
+
+.icon-btn a {
+    position: absolute;
+    margin-top: -19px;
 }

@@ -12,7 +12,8 @@ function start() {
         "name": "Earth",
         "terrain": new og.terrain.GlobusTerrain(),
         "layers": [osm],
-        "autoActivated": true
+        "autoActivated": true,
+        "viewExtent": [5.56707, 45.15679, 5.88834, 45.22260]
     });
 
     globus.planet.setRatioLod(1.3, 1.1);
@@ -40,11 +41,13 @@ function start() {
             }
         }));
 
-    globus.planet.viewExtent(
-	new og.Extent(new og.LonLat(5.56707, 45.15679), 
-	new og.LonLat(5.88834, 45.22260)));
-	
+    //globus.planet.viewExtent(
+    //    new og.Extent(
+    //        new og.LonLat(5.56707, 45.15679),
+    //        new og.LonLat(5.88834, 45.22260)
+    //    )
+    //);
 
-window.globus = globus;
+    window.globus = globus;
 
 };

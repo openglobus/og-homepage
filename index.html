@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163824275-1"></script>
@@ -64,14 +64,15 @@
                     <li><a href="./api/">API</a></li>
                     <li><a href="./download.html">Download</a></li>
                     <li><a href="https://groups.google.com/d/forum/openglobus">Forum</a></li>
-                    <li><a href="https://github.com/OpenGlobus/OpenGlobus">GitHub</a></li>
+                    <li class="icon-btn"><a href="https://twitter.com/openglobus"><img alt="Follow openglobus on Twitter" src="data/Twitter social icons/Twitter social icons - circle/Twitter social icons - circle - blue.png" width="28"></a></li>
+                    <li class="icon-btn"><a href="https://github.com/openglobus/openglobus"><img alt="View source code" src="data/GitHub-Mark/PNG/GitHub-Mark-32px.png" width="28"></a></a></li>
                 </ul>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="announcement">4/5/2020 waiting for the summer</div>
+        <div class="announcement">3/5/2021 What a day!</div>
         <p style="margin-bottom:25px">
         Welcome to the OpenGlobus overview page! OpenGlobus is a javascript library designed to display interactive 3d maps and planets with map tiles, imagery and vector data, markers and 3d objects. It uses the WebGL technology, open source and completely free.
         </p>
@@ -94,7 +95,8 @@
         "name": "Earth",
         "terrain": new og.terrain.GlobusTerrain(),
         "layers": [osm],
-        "autoActivated": true
+        "autoActivated": true,
+        "viewExtent": [5.56707, 45.15679, 5.88834, 45.22260]
     });
 
     new og.layer.Vector("Markers", {
@@ -119,10 +121,7 @@
                 offset: [0, 32]
             }
         }));
-
-	
-    globus.planet.viewExtentArr([5.54,45.141,5.93,45.23]);
-            </code>
+        </code>
         </pre>
         <h1>Features</h1>
         <div class="features clearfix">
@@ -135,6 +134,7 @@
                     <li>GeoImage overlays<span class="quiet">: images, videos, webgl framebuffers</span></li>
                     <li>Custom canvas tiles</li>
                     <li>GeoJSON</li>
+                    <li>Custom scene nodes</li>
                 </ul>
             </div>
 
@@ -163,23 +163,22 @@
                     <li>Layer switcher</li>
                     <li>Real sun positioning</li>
                     <li>Arcball navigation<span class="quiet">: mouse, touch, keyboard</span></li>
-                    <li>Real moon positioning<span class="indev">: in develop</span></li>
+                    <li>Compass direction</li>
                 </ul>
             </div>
 
             <div class="no-break">
                 <h3>3D Visualization</h3>
                 <ul>
-                    <li>Terrain and heightmap sources customization</li>
+                    <li>Support for various sources of elevation data</li>
+                    <li>Geoid model support</li>
                     <li>Terrain picking and collision detection</li>
-                    <li>Custom skybox</li>
                     <li>Smooth lighting</li>
+                    <li>Custom skybox</li>
                     <li>Layers appearance customization<span class="quiet">: lighting parameters, height over ground, transparent color, opacity, visible bounds</span></li>
                     <li>Axis aligned billboards and labels</li>
+                    <li>3D Tiles<span class="indev"> - in develop</span></li>
                     <li>Atmosphere scattering<span class="indev"> - in develop</span></li>
-                    <li>Collada objects<span class="indev"> - in develop</span></li>
-                    <li>LIDAR terrain overlay<span class="indev"> - in develop</span></li>
-                    <li>KML/KMZ overlay<span class="indev"> - in develop</span></li>
                     <li>glTF objects<span class="indev"> - in develop</span></li>
                 </ul>
             </div>
