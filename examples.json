@@ -36,5 +36,6 @@
   [ "Circles on the ground", "Demonstrates how to draw ground relative circles", "http://openglobus.org/examples/circlesOnTheGround/circlesOnTheGround.html" ],
   [ "Camera fly", "A few camera fly examples", "http://openglobus.org/examples/cameraFly/cameraFly.html" ],
   [ "Rays", "Ray example. TIP: Faster than Polyline for line segments rendering", "http://openglobus.org/examples/rays/rays.html" ],
+  [ "Fonts and Labels", "Using multiple fonts and labels creation example", "http://openglobus.org/examples/fonts/fonts.html" ],
   [ "...", "to be continued...", "http://openglobus.org/examples" ]
 ]
