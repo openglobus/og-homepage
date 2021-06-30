@@ -37,5 +37,6 @@
   [ "Camera fly", "A few camera fly examples", "http://openglobus.org/examples/cameraFly/cameraFly.html" ],
   [ "Rays", "Ray example. TIP: Faster than Polyline for line segments rendering", "http://openglobus.org/examples/rays/rays.html" ],
   [ "Fonts and Labels", "Using multiple fonts and labels creation example", "http://openglobus.org/examples/fonts/fonts.html" ],
+  [ "Lighting Layer Control", "Useful tool for configuring layer lighting parameters", "http://openglobus.org/examples/lighting/lighting.html" ],
   [ "...", "to be continued...", "http://openglobus.org/examples" ]
 ]
