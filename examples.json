@@ -39,5 +39,7 @@
   [ "Fonts and Labels", "Using multiple fonts and labels creation example", "http://openglobus.org/examples/fonts/fonts.html" ],
   [ "Lighting Layer Control", "Useful tool for configuring layer lighting parameters", "http://openglobus.org/examples/lighting/lighting.html" ],
   [ "Ruler Control", "Tool for measure distance", "http://openglobus.org/examples/ruler/ruler.html" ],
+  [ "Animated Continents Drift", "Example of LayerAnimation control with GeoImage layers", "http://openglobus.org/examples/timelayer/timelayer1.html" ],
+  [ "Animated CanvasTiles/XYZ", "Shows how to use LayerAnimation control with CanvasTiles and XYZ layers", "http://openglobus.org/examples/timelayer/timelayer2.html" ],
   [ "...", "to be continued...", "http://openglobus.org/examples" ]
 ]
