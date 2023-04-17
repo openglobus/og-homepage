@@ -1,14 +1,42 @@
 import './App.css';
 import "./fontello/css/fontello.css";
 
+import React, {useRef, useEffect} from "react";
+
+const Video = ({isMuted}) => {
+    const refVideo = useRef(null);
+
+    useEffect(() => {
+        if (!refVideo.current) {
+            return;
+        }
+
+        if (isMuted) {
+            refVideo.current.defaultMuted = true;
+            refVideo.current.muted = true;
+        }
+
+    }, []);
+
+    return (
+        <video
+            id="background-video"
+            ref={refVideo}
+            autoPlay
+            playsInline
+            loop
+        >
+            <source src="./video.mp4" type="video/mp4"/>
+        </video>
+    );
+}
+
 const App = () => {
     return (
         <div className="App">
 
             <div className="og-videobackground">
-                <video id="background-video" autoplay loop muted playsinline>
-                    <source src="./video.mp4" type="video/mp4"/>
-                </video>
+                <Video isMuted="true"></Video>
             </div>
 
             <div className="og-gradient"></div>
