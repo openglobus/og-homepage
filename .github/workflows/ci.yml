@@ -1,0 +1,41 @@
+name: Build and deploy
+
+on:
+  push:
+    branches:
+      - master
+      - ci
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@master
+        with:
+          persist-credentials: false
+          submodules: true  # TODO remove this if not using submodules in Hexo
+
+      - name: Install 🔧
+        run: npm ci
+
+      - name: Build 🏗️
+        run: |
+          npm run build
+          ls -la
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
