@@ -41,4 +41,5 @@ jobs:
           destination-github-username: openglobus
           destination-repository-name: openglobus.github.io
           user-email: github-actions[bot]@users.noreply.github.com
+          target-branch: master
           exclude-directories: "docs"
