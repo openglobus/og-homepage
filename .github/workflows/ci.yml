@@ -32,8 +32,14 @@ jobs:
         run: |
           npm run build
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Deploy to external repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY  }}
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          source-directory: build
+          destination-github-username: openglobus
+          destination-repository-name: openglobus.github.io
+          user-email: pvlt.job@gmail.com
+          target-branch: master
+          target-directory: ./
