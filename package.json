@@ -4,11 +4,9 @@
   "private": true,
   "homepage": "https://openglobus.github.io",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": [
@@ -37,8 +35,9 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
+    "@vitejs/plugin-react": "^4.0.0",
     "gh-pages": "^5.0.0",
-    "react-scripts": "^5.0.1",
+    "vite": "^4.3.3",
     "web-vitals": "^3.3.1"
   }
 }
