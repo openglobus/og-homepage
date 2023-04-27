@@ -2,7 +2,7 @@
   "name": "openglobus_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://openglobus.github.io/homepage",
+  "homepage": "https://openglobus.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
