@@ -21,9 +21,6 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@master
-        with:
-          persist-credentials: false
-          submodules: true  # TODO remove this if not using submodules in Hexo
 
       - name: Install 🔧
         run: npm ci --prefer-offline --no-audit
