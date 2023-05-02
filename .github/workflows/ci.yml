@@ -29,7 +29,7 @@ jobs:
           npm run build
 
       - name: Deploy to external repository
-        uses: pavletto/github-action-push-to-another-repository@main
+        uses: pavletto/github-action-push-to-another-repository@test
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY  }}
         with:
