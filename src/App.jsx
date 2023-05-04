@@ -16,7 +16,7 @@ const Video = ({isMuted}) => {
             refVideo.current.muted = true;
         }
 
-    });
+    }, [isMuted]);
 
     return (
         <video
@@ -36,7 +36,7 @@ const App = () => {
         <div className="App">
 
             <div className="og-videobackground">
-                <Video isMuted="true"></Video>
+                <Video isMuted={true}></Video>
             </div>
 
             <div className="og-gradient"></div>
