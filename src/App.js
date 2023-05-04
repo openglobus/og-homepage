@@ -26,7 +26,7 @@ const Video = ({isMuted}) => {
             playsInline
             loop
         >
-            <source src="./video.mp4" type="video/mp4"/>
+            <source src="//openglobus.org/video.mp4" type="video/mp4"/>
         </video>
     );
 }
@@ -47,18 +47,18 @@ const App = () => {
                 <div className="og-top">
                     <div className="og-brand">Openglobus</div>
                     <div className="og-social">
-                        <a className="nav-link" href="https://github.com/openglobus/openglobus" title="GitHub"><i
-                            className="icon-github-circled"
-                            aria-hidden="true"></i></a>
-                        <a className="nav-link" href="https://twitter.com/openglobus" title="Twitter"><i
-                            className="icon-twitter"
-                            aria-hidden="true"></i></a>
-                        <a className="nav-link" href="https://www.linkedin.com/company/openglobus/" title="LinkedIn"><i
-                            className="icon-linkedin"
-                            aria-hidden="true"></i></a>
-                        <a className="nav-link" href="https://groups.google.com/g/openglobus" title="Google Forum"><i
-                            className="icon-google"
-                            aria-hidden="true"></i></a>
+                        <a className="nav-link"  href="https://github.com/openglobus/openglobus" title="GitHub">
+                            <i className="icon-github-circled" aria-hidden="true"></i>
+                        </a>
+                        <a className="nav-link" href="https://twitter.com/openglobus" title="Twitter">
+                            <i className="icon-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a className="nav-link" href="https://www.linkedin.com/company/openglobus/" title="LinkedIn">
+                            <i className="icon-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a className="nav-link" href="https://groups.google.com/g/openglobus" title="Google Forum">
+                            <i className="icon-google" aria-hidden="true"></i>
+                        </a>
                     </div>
                 </div>
 
