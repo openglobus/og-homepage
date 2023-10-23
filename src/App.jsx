@@ -56,9 +56,6 @@ const App = () => {
                         <a className="nav-link" href="https://www.linkedin.com/company/openglobus/" title="LinkedIn">
                             <i className="icon-linkedin" aria-hidden="true"></i>
                         </a>
-                        <a className="nav-link" href="https://groups.google.com/g/openglobus" title="Google Forum">
-                            <i className="icon-google" aria-hidden="true"></i>
-                        </a>
                     </div>
                 </div>
 
@@ -69,6 +66,7 @@ const App = () => {
                         surroundings rendering. It supports various high-resolution terrain providers, and imagery
                         layers,
                         renders thousands of 3D objects, provides geometry measurement tools, and more.
+                        Check some examples here: <a className="og-examples_href" href="https://www.openglobus.org/examples">EXAMPLES</a>
                     </div>
                 </div>
 
@@ -78,7 +76,7 @@ const App = () => {
             </div>
 
             <div className="og-bottom">
-                <p className="og-copyright">© openglobus 2023. <a
+                <p className="og-copyright">© Michael Gevlich 2023. <a
                     href="https://github.com/openglobus/openglobus/blob/master/LICENSE.md">License MIT</a></p>
             </div>
 
