@@ -60,19 +60,6 @@ code {
     }
 }
 
-@media (max-height: 700px) {
-    .og-underconstruction {
-        display: none;
-    }
-}
-
-.og-underconstruction {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px;
-}
-
 .og-top {
     position: relative;
     display: flex;
@@ -94,14 +81,6 @@ code {
     padding: 0.5rem 1rem;
 }
 
-.og-brand {
-    padding-top: 0;
-    font-size: 3.4rem;
-    letter-spacing: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-left: 13px;
-}
 
 .og-center {
     position: relative;
