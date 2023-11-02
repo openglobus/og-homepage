@@ -1,5 +1,5 @@
 .navbar {
-    height: 2.6vw;
+    height: 3.6vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 1000;
     background: #0000007d;
 }
 
@@ -17,7 +17,7 @@
     text-decoration: none;
     color: white;
     padding-top: 0;
-    font-size: 4.9vw;
+    font-size: 7.1vw;
     letter-spacing: 15px;
     letter-spacing: 1.1vw;
     font-weight: 500;

@@ -88,6 +88,8 @@ code {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 
 .og-description {
@@ -131,4 +133,29 @@ code {
 
 .og-examples_href {
     color: white;
+}
+
+.og-mit {
+    background: #0000004d;
+    color: #cfcfcf;
+    padding: 4px 10px 6px 10px;
+}
+
+.og-about {
+    max-width: 1200px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-align: justify;
+    padding: 40px;
+    max-width: 770px;
+    line-height: 1.9;
+    z-index: 1;
+}
+
+.og-about-background {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
 }
