@@ -10,9 +10,8 @@ const About = () => {
                     on the idea of
                     developing very simple graphics engine based on pure WebGL API, without any additional libraries or
                     frameworks. Later, one of the main elements of the engine became a scene for rendering the planet
-                    Earth with
-                    the relief of SRTM terrain data.
-                    The accuracy of the data of the planet allows visualizing geospatial data at the scale of the
+                    Earth with high terrain resolution data. The accuracy of the data of the planet allows visualizing
+                    geospatial data at the scale of the
                     whole planet and ant at the same time, and the planet engine allows you to work with the highest
                     precision terrain data.
                     The main ideas for working with the planet engine are simplicity, rigor, beauty and visual quality
