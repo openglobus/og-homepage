@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
     return (
         <>
-            <div className="og-center">
+            <div className="og-line">
                 <img className="og-about-background" src="./atmos2.png"></img>
                 <div className="og-about">
                     &emsp;&emsp;Openglobus was created in 2013 year by software engineer Michael Gevlich. It was based
