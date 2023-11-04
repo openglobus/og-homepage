@@ -16,9 +16,9 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className="navbar-li">
-                    <NavLink className="navbar-link" to="https://www.openglobus.org/examples/examples/">
+                    <a className="navbar-link" href="https://www.openglobus.org/examples/examples/">
                         examples
-                    </NavLink>
+                    </a>
                 </li>
                 <li className="navbar-li">
                     <NavLink className="navbar-link" to="/about">
