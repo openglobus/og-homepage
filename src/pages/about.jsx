@@ -11,7 +11,7 @@ const About = () => {
                     was looking for an idea that would inspire him.
                     <br/>
                     <br/>
-                    &emsp;&emsp;One day he was challenged with the need to work with terrain in three-dimensional space.
+                    &emsp;&emsp;One day he was challenged with the task to work with terrain in three-dimensional space.
                     The
                     visualization libraries that were available at the time did not meet his technical and aesthetic
                     requirements. So he decided to make his own tool that would allow him to render objects on the scale
