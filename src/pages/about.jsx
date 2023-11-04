@@ -6,7 +6,7 @@ const About = () => {
             <div className="og-line">
                 <img className="og-about-background" src="./atmos2.png"></img>
                 <div className="og-description">
-                    &emsp;&emsp;Openglobus was created in 2013 by programmer Mikhail Gevlich, who worked in
+                    &emsp;&emsp;Openglobus was created in 2013 by programmer Michael Gevlich, who worked in
                     geoinformation technology and was a dreamer. He wanted to make computer games, and create worlds and
                     was looking for an idea that would inspire him.
                     <br/>
