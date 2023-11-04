@@ -17,33 +17,20 @@ code {
     monospace;
 }
 
-.og-main {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
 .og-gradient {
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: linear-gradient(0deg, rgb(0 0 0 / 76%) 0%, rgb(0 0 0 / 0%) 67%);
+    background-image: linear-gradient(0deg, rgb(0 0 0 / 82%) 0%, rgb(0 0 0 / 0%) 67%);
+    z-index: 1;
 }
 
 .og-videobackground {
     position: absolute;
     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    vertical-align: middle;
+    /*max-height: 821px;*/
+    overflow: hidden;
+    height: 100vh;
 }
 
 /* video background */
@@ -51,39 +38,26 @@ code {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    position: relative;
 }
 
-@media (max-width: 750px) {
-    .og-brand {
-        font-size: 2.2rem !important;
-        margin-left: 16px !important;
-    }
-}
-
-@media (max-height: 700px) {
-    .og-underconstruction {
-        display: none;
-    }
-}
-
-.og-underconstruction {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 20px;
-}
-
-.og-top {
+.og-line {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    z-index: 2;
 }
 
 .og-social {
     font-size: 2.0rem;
-    padding-top: 20px;
+    padding: 0vw 0vw 2.5vw 0vw;
 }
 
 .og-social a, .og-social a:focus, .og-social a:hover {
@@ -94,32 +68,19 @@ code {
     padding: 0.5rem 1rem;
 }
 
-.og-brand {
-    padding-top: 0;
-    font-size: 3.4rem;
-    letter-spacing: 15px;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-left: 13px;
-}
-
-.og-center {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-}
-
 .og-description {
     max-width: 1200px;
     line-height: 1.5;
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     text-align: justify;
-    padding: 40px;
-    max-width: 770px;
+    max-width: 840px;
     line-height: 1.9;
+    padding-bottom: 2.5vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10vw;
+    z-index: 2;
 }
 
 .og-bottom {
@@ -132,7 +93,7 @@ code {
 
 .og-subscribe {
     font-size: 1.5rem;
-    padding-bottom: 68px;
+    padding-bottom: 2vw;
 }
 
 .og-lead {
@@ -152,4 +113,32 @@ code {
 
 .og-examples_href {
     color: white;
+}
+
+.og-mit {
+    background: #0000004d;
+    color: #cfcfcf;
+    padding: 4px 10px 6px 10px;
+}
+
+.og-about {
+    max-width: 1200px;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.25rem;
+    text-align: justify;
+    max-width: 840px;
+    line-height: 1.9;
+    z-index: 1;
+    padding-top: 15vw;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.og-about-background {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
 }

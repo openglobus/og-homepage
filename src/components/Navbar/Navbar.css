@@ -1,0 +1,56 @@
+.navbar {
+    height: 3.6vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #0000007d;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: white;
+    padding-top: 0;
+    font-size: 7.1vw;
+    letter-spacing: 15px;
+    letter-spacing: 1.1vw;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 0;
+}
+
+.navbar-ext {
+
+}
+
+.navbar-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-li {
+    display: inline-block;
+    padding: 1vw;
+    letter-spacing: 1.1vw;
+
+    padding: 0 1vw 0 1vw;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.25rem;
+    font-size: 1.3vw;
+    color: white;
+}
