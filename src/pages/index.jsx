@@ -36,6 +36,32 @@ const Home = () => {
         </div>
 
         <div className="og-line">
+            <div className="og-description">
+                &emsp;&emsp;Openglobus is a tool for creating visualization programs for landscapes, satellite images,
+                buildings,
+                and any moving objects in real-time.
+                <br/>
+                <br/>
+                &emsp;&emsp;It is an open-source JavaScript/TypeScript library based on pure WebGL, which can be easily
+                integrated
+                into any related project thanks to its simple API. Openglobus supports various
+                high-resolution terrain data providers and imagery layers, can render thousands of 3D objects, offers
+                geometry measurement tools, and more.
+                <br/>
+                <br/>
+                &emsp;&emsp;Openglobus is released under the&ensp;
+                <a className="og-mit" href="https://github.com/openglobus/openglobus/blob/master/LICENSE.md">MIT
+                    License</a> and completely free for both commercial and non-commercial use.
+            </div>
+        </div>
+
+        <div className="og-line">
+            <div className="og-subscribe">
+                Stay tuned, and subscribe!
+            </div>
+        </div>
+
+        <div className="og-line">
             <div className="og-social">
                 <a className="nav-link" href="https://github.com/openglobus/openglobus" title="GitHub">
                     <i className="icon-github-circled" aria-hidden="true"></i>
@@ -47,29 +73,6 @@ const Home = () => {
                    title="LinkedIn">
                     <i className="icon-linkedin" aria-hidden="true"></i>
                 </a>
-            </div>
-        </div>
-
-        <div className="og-line">
-            <div className="og-description">
-                &emsp;&emsp;Openglobus is an open-source javascript/typescript library for creating interactive
-                high
-                precised 3D
-                maps, with real-time surroundings rendering. It supports various high-resolution terrain data
-                providers, and imagery
-                layers, renders thousands of 3D objects, provides geometry measurement tools, and more.
-                <br/>
-                <br/>
-                &emsp;&emsp;Openglobus is released under the&ensp;
-                <a className="og-mit" href="https://github.com/openglobus/openglobus/blob/master/LICENSE.md">MIT
-                    License</a> and is
-                free for both commercial and non-commercial use.
-            </div>
-        </div>
-
-        <div className="og-line">
-            <div className="og-subscribe">
-                Stay tuned, and subscribe!
             </div>
         </div>
 

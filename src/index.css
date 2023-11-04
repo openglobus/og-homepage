@@ -57,7 +57,7 @@ code {
 
 .og-social {
     font-size: 2.0rem;
-    padding: 10vw 0vw 3vw 0vw;
+    padding: 0vw 0vw 2.5vw 0vw;
 }
 
 .og-social a, .og-social a:focus, .og-social a:hover {
@@ -72,13 +72,15 @@ code {
     max-width: 1200px;
     line-height: 1.5;
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     text-align: justify;
     max-width: 840px;
     line-height: 1.9;
-    padding-bottom: 3vw;
+    padding-bottom: 2.5vw;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10vw;
+    z-index: 2;
 }
 
 .og-bottom {
@@ -91,7 +93,7 @@ code {
 
 .og-subscribe {
     font-size: 1.5rem;
-    padding-bottom: 5vw;
+    padding-bottom: 2vw;
 }
 
 .og-lead {
