@@ -6,33 +6,33 @@ const About = () => {
             <div className="og-line">
                 <img className="og-about-background" src="./atmos2.png"></img>
                 <div className="og-description">
-                    &emsp;&emsp;Openglobus was created in 2013 by programmer Michael Gevlich, who worked in
-                    geoinformation technology and was a dreamer. He wanted to make computer games, and create worlds and
-                    was looking for an idea that would inspire him.
+                    &emsp;&emsp;Openglobus was created in 2013 by Michael Gevlich, a programmer, geoinformation
+                    engineer, and
+                    dreamer. He wanted to create computer games and immersive worlds, seeking an inspiring idea.
                     <br/>
                     <br/>
-                    &emsp;&emsp;One day he was challenged with the task to work with terrain in three-dimensional space.
-                    The
+                    &emsp;&emsp;One day he was challenged with the task of working with terrain in three-dimensional
+                    space. The
                     visualization libraries that were available at the time did not meet his technical and aesthetic
-                    requirements. So he decided to make his own tool that would allow him to render objects on the scale
-                    of a planet and an ant at the same time.
+                    requirements. So he decided to make his own tool to render planetary and ant-sized objects
+                    simultaneously.
                     <br/>
                     <br/>
                     &emsp;&emsp;He was so fascinated by this process that he devoted all his free time to it. He wanted
-                    to share
-                    what he had with other programmers and made his library completely open. New people started coming
-                    in, bringing new ideas into the Openglobus and using it for their own tasks. These were such
-                    projects as weather visualization, 3D mapping of river and lake bottoms, mapping of satellite and
+                    to share the
+                    spoils of his work with other programmers and made his library completely open. Newcomers
+                    brought fresh ideas and utilized Openglobus for their own tasks. These were projects such as weather
+                    visualization, 3D mapping of river and lake bottoms, mapping of satellite and
                     drone trajectories, creation of computer games, and route planning.
                     <br/>
                     <br/>
-                    &emsp;&emsp;At the moment, Openglobus is a popular and accessible tool for solving a large number of
-                    different
-                    tasks related to geoinformation technologies. Nowadays 3D technologies continue to evolve. The
-                    metaverse, digital tweens, and augmented reality are becoming more and more prevalent in our daily
-                    lives. The development of drones, the aerospace industry, increasing computer performance, and cloud
-                    technologies confirm that 3D visualization tools will be in demand, and the Openglobus will continue
-                    to evolve and grow.
+                    &emsp;&emsp;At the moment, Openglobus is a popular and accessible tool for solving various tasks
+                    related to
+                    geoinformation technologies. Nowadays 3D technologies continue to evolve. The metaverse, digital
+                    tweens, and augmented reality are becoming increasingly prevalent in our daily lives. The
+                    development of drones, the aerospace industry, increasing computer performance, and cloud
+                    technologies indicate a rising need for 3D visualization tools, and the Openglobus will continue to
+                    evolve and grow.
                 </div>
             </div>
         </>

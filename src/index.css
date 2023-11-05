@@ -57,7 +57,7 @@ code {
 
 .og-social {
     font-size: 2.0rem;
-    padding: 0vw 0vw 2.5vw 0vw;
+    padding: 0vw 0vw 1.1vw 0vw;
 }
 
 .og-social a, .og-social a:focus, .og-social a:hover {
@@ -76,10 +76,10 @@ code {
     text-align: justify;
     max-width: 840px;
     line-height: 1.9;
-    padding-bottom: 2.5vw;
+    padding-bottom: 2vw;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 10vw;
+    padding-top: 12vw;
     z-index: 2;
 }
 
