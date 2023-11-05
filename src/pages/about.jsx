@@ -8,10 +8,8 @@ const About = () => {
                 <div className="og-description">
                     &emsp;&emsp;Openglobus was created in 2013 by Michael Gevlich, a programmer, geoinformation
                     engineer, and
-                    dreamer. He wanted to create computer games and immersive worlds, seeking an inspiring idea.
-                    <br/>
-                    <br/>
-                    &emsp;&emsp;One day he was challenged with the task of working with terrain in three-dimensional
+                    dreamer. He wanted to create computer games and immersive worlds, seeking an inspiring idea. One day
+                    he was challenged with the task of working with terrain in three-dimensional
                     space. The
                     visualization libraries that were available at the time did not meet his technical and aesthetic
                     requirements. So he decided to make his own tool to render planetary and ant-sized objects
