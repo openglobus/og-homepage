@@ -16,9 +16,9 @@ const About = () => {
                     simultaneously.
                     <br/>
                     <br/>
-                    &emsp;&emsp;He was so fascinated by this process that he devoted all his free time to it. He wanted
-                    to share the
-                    spoils of his work with other programmers and made his library completely open. Newcomers
+                    &emsp;&emsp;He was so fascinated by this process that he devoted all his free time to it. Wanting to
+                    share the spoils of his work, Michael opened his library to be freely available to other
+                    programmers. Newcomers
                     brought fresh ideas and utilized Openglobus for their own tasks. These were projects such as weather
                     visualization, 3D mapping of river and lake bottoms, mapping of satellite and
                     drone trajectories, creation of computer games, and route planning.
@@ -27,10 +27,10 @@ const About = () => {
                     &emsp;&emsp;At the moment, Openglobus is a popular and accessible tool for solving various tasks
                     related to
                     geoinformation technologies. Nowadays 3D technologies continue to evolve. The metaverse, digital
-                    tweens, and augmented reality are becoming increasingly prevalent in our daily lives. The
+                    tweens, and augmented reality are becoming increasingly prevalent in our daily lives. With the
                     development of drones, the aerospace industry, increasing computer performance, and cloud
-                    technologies indicate a rising need for 3D visualization tools, and the Openglobus will continue to
-                    evolve and grow.
+                    technologies there is a rising need for 3D visualization tools. Openglobus aims to continue to
+                    evolve and grow to suit the needs of forward-thinking industries.
                 </div>
             </div>
         </>
