@@ -39,8 +39,10 @@ const Home = () => {
             <div className="og-description">
                 &emsp;&emsp;Openglobus is a tool for creating visualization programs for landscapes, satellite images,
                 buildings,
-                and any moving objects in real-time. is an open-source JavaScript/TypeScript library based on pure
-                WebGL, which can be easily
+                and any moving objects in real-time.
+                <br/>
+                <br/>
+                &emsp;&emsp;It is an open-source JavaScript/TypeScript library based on pure WebGL, which can be easily
                 integrated
                 into any related project thanks to its simple API. Openglobus supports various
                 high-resolution terrain data providers and imagery layers, can render thousands of 3D objects, offers
