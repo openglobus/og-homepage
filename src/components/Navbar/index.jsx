@@ -16,7 +16,7 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li className="navbar-li">
-                    <a className="navbar-link" href="https://www.openglobus.org/examples/examples/">
+                    <a className="navbar-link" href="https://sandbox.openglobus.org/">
                         examples
                     </a>
                 </li>
