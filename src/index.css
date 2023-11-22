@@ -57,7 +57,7 @@ code {
 
 .og-social {
     font-size: 2.0rem;
-    padding: 0vw 0vw 1.1vw 0vw;
+    padding: 0vw 0vw 3.1vw 0vw;
 }
 
 .og-social a, .og-social a:focus, .og-social a:hover {
@@ -79,8 +79,13 @@ code {
     padding-bottom: 2vw;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 12vw;
+    padding-top: 10vw;
     z-index: 2;
+}
+
+.og-description__about {
+    padding-top: 13vw;
+    padding-bottom: 8vw;
 }
 
 .og-bottom {
