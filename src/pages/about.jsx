@@ -6,7 +6,7 @@ const About = () => {
             <div className="og-line">
                 <img className="og-about-background" src="./atmos2.png"></img>
                 <div className="og-description og-description__about">
-                    &emsp;&emsp;«I created Openglobus in 2013. I wanted to create computer games and immersive worlds,
+                    &emsp;&emsp;« I created OpenGlobus in 2013. I wanted to create computer games and immersive worlds,
                     and was seeking an inspiring idea. One day
                     I was challenged with the task of working with terrain in three-dimensional
                     space. The
@@ -26,10 +26,10 @@ const About = () => {
                     &emsp;&emsp;Nowadays 3D technologies continue to evolve. The metaverse, digital
                     tweens, and augmented reality are becoming increasingly prevalent in our daily lives. With the
                     development of drones, the aerospace industry, increasing computer performance, and cloud
-                    technologies there is a rising need for 3D visualization tools. At the moment, Openglobus is a
+                    technologies there is a rising need for 3D visualization tools. At the moment, OpenGlobus is a
                     popular and accessible tool for solving various tasks
                     related to geoinformation technologies, and aims to continue to
-                    evolve and grow to suit the needs of forward-thinking industries.»
+                    evolve and grow to suit the needs of forward-thinking industries. »
                     <br/>
                     <br/>
                     Michael Gevlich

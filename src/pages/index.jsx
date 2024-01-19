@@ -47,7 +47,7 @@ const Home = () => {
                 geometry measurement tools, and more.
                 <br/>
                 <br/>
-                &emsp;&emsp;Openglobus is released under the&ensp;
+                &emsp;&emsp;OpenGlobus is released under the&ensp;
                 <a className="og-mit" href="https://github.com/openglobus/openglobus/blob/master/LICENSE.md">MIT
                     License</a> and completely free for both commercial and non-commercial use.
             </div>
