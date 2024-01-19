@@ -29,10 +29,10 @@ const About = () => {
                     technologies there is a rising need for 3D visualization tools. At the moment, Openglobus is a
                     popular and accessible tool for solving various tasks
                     related to geoinformation technologies, and aims to continue to
-                    evolve and grow to suit the needs of forward-thinking industries.
+                    evolve and grow to suit the needs of forward-thinking industries.»
                     <br/>
                     <br/>
-                    Michael Gevlich»
+                    Michael Gevlich
                 </div>
             </div>
         </>
