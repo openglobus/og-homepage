@@ -6,7 +6,7 @@ const About = () => {
             <div className="og-line">
                 <img className="og-about-background" src="./atmos2.png"></img>
                 <div className="og-description og-description__about">
-                    &emsp;&emsp;"I created Openglobus in 2013. I wanted to create computer games and immersive worlds,
+                    &emsp;&emsp;«I created Openglobus in 2013. I wanted to create computer games and immersive worlds,
                     and was seeking an inspiring idea. One day
                     I was challenged with the task of working with terrain in three-dimensional
                     space. The
@@ -32,7 +32,7 @@ const About = () => {
                     evolve and grow to suit the needs of forward-thinking industries.
                     <br/>
                     <br/>
-                    Michael Gevlich"
+                    Michael Gevlich»
                 </div>
             </div>
         </>
