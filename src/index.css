@@ -8,7 +8,7 @@ body {
     color: #fff;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    text-shadow: #353535 1px 0px 16px;
+    text-shadow: #ffffff5e 1px 0px 16px;
     line-height: 1.5;
 }
 
@@ -108,7 +108,7 @@ code {
 }
 
 .og-copyright {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1.0);
 }
 
 .og-copyright a {
@@ -146,4 +146,5 @@ code {
     width: 100%;
     left: 0;
     top: 0;
+    margin-top: -75px;
 }

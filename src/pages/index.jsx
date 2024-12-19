@@ -32,7 +32,7 @@ const Home = () => {
 
         <div className="og-videobackground">
             <div className="og-gradient"></div>
-            <Video isMuted={true}></Video>
+            <img className="og-about-background" src="./atmos2.png"></img>
         </div>
 
         <div className="og-line">
@@ -75,7 +75,7 @@ const Home = () => {
         </div>
 
         <div className="og-line">
-            <p className="og-copyright">© Michael Gevlich 2023</p>
+            <p className="og-copyright">© Michael Gevlich 2025</p>
         </div>
 
     </div>)

@@ -1,12 +1,11 @@
 .navbar {
-    height: 3.6vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     overflow: hidden;
-    position: absolute;
-    top: 0;
+    position: relative;
+    padding-top: 55px;
     left: 0;
     width: 100%;
     z-index: 1000;
@@ -17,7 +16,7 @@
     text-decoration: none;
     color: white;
     padding-top: 0;
-    font-size: 7.1vw;
+    font-size: 2.1vw;
     letter-spacing: 15px;
     letter-spacing: 1.1vw;
     font-weight: 500;
@@ -33,6 +32,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-top: 40px;
     height: 100%;
     display: flex;
     justify-content: center;

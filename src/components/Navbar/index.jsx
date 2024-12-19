@@ -20,11 +20,6 @@ const Navbar = () => {
                         examples
                     </a>
                 </li>
-                <li className="navbar-li">
-                    <NavLink className="navbar-link" to="/about">
-                        about
-                    </NavLink>
-                </li>
             </ul>
         </nav>
     );
