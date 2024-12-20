@@ -4,7 +4,7 @@ import "./fontello/css/fontello.css";
 import React, {useRef, useEffect} from "react";
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import About from './pages/about';
+import Contacts from './pages/contacts';
 import Home from './pages';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
             <Navbar/>
             <Routes>
                 <Route exact path='/' element={<Home/>}/>
+                <Route exact path='/contacts' element={<Contacts/>}/>
             </Routes>
         </Router>
     );

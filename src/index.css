@@ -148,3 +148,8 @@ code {
     top: 0;
     margin-top: -75px;
 }
+
+.small-link {
+    color: #3b95ff;
+    text-shadow: #272727 1px 0px 16px;
+}
