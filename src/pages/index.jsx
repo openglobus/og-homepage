@@ -61,15 +61,19 @@ const Home = () => {
 
         <div className="og-line">
             <div className="og-social">
-                <a className="nav-link" href="https://github.com/openglobus/openglobus" title="GitHub">
+                <a className="nav-link" href="https://github.com/openglobus/openglobus" title="GitHub" target="_blank">
                     <i className="icon-github-circled" aria-hidden="true"></i>
                 </a>
-                <a className="nav-link" href="https://twitter.com/openglobus" title="Twitter">
+                <a className="nav-link" href="https://twitter.com/openglobus" title="Twitter" target="_blank">
                     <i className="icon-twitter" aria-hidden="true"></i>
                 </a>
                 <a className="nav-link" href="https://www.linkedin.com/company/openglobus/"
-                   title="LinkedIn">
+                   title="LinkedIn" target="_blank">
                     <i className="icon-linkedin" aria-hidden="true"></i>
+                </a>
+                <a className="nav-link" href="https://www.youtube.com/@mgevlich"
+                   title="YouTube" target="_blank">
+                    <i className="icon-youtube-play" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
