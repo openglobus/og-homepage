@@ -37,14 +37,11 @@ const Home = () => {
 
         <div className="og-line">
             <div className="og-description">
-                &emsp;&emsp;OpenGlobus is an open-source JavaScript/TypeScript library for visualizing high-precision
-                virtual globes
-                and various geospatial data such as terrain, satellite images,
-                buildings, and any moving objects in real-time. It is based on pure WebGL, which can be easily
-                integrated
-                into any related project thanks to its simple API. OpenGlobus supports various
-                high-resolution terrain data providers and imagery layers, can render thousands of 3D objects, offers
-                geometry measurement tools, and more.
+                &emsp;&emsp;OpenGlobus is an open-source JavaScript/TypeScript library for creating virtual globes
+                and visualizing geospatial data with precision at all scales. It supports real-time rendering of
+                terrain, satellite images, buildings, and moving objects. Built on pure WebGL, it’s easy to integrate into
+                projects using its simple API. OpenGlobus handles high-resolution maps, renders thousands of 3D objects,
+                and includes tools for measurement and more.
                 <br/>
                 <br/>
                 &emsp;&emsp;OpenGlobus is released under the&ensp;
