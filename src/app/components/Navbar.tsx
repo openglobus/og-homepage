@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Link } from "react-router";
+import { Link, useLocation } from "react-router";
 import logoImg from "@/assets/f8a0fd3a5538efa253beec7c4d81b669c48e97cb.png";
 
 const navItems = [
@@ -11,6 +11,7 @@ const navItems = [
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const showFullLogo = useLocation().pathname !== "/";
 
   return (
     <>
@@ -20,8 +21,16 @@ export function Navbar() {
         style={{ backgroundColor: "#000000" }}
       >
         {/* Logo */}
-        <Link to="/" className="py-3">
+        <Link to="/" className="py-3 flex items-center gap-2.5">
           <img src={logoImg} alt="OpenGlobus" className="w-7 h-7" />
+          {showFullLogo && (
+            <span
+              className="text-[#4A9ED9]"
+              style={{ fontSize: "1.15rem", letterSpacing: "0.15em", fontWeight: 500 }}
+            >
+              OpenGlobus
+            </span>
+          )}
         </Link>
 
         {/* Desktop nav */}

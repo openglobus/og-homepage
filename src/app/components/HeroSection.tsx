@@ -1,6 +1,8 @@
+import { useRef, useCallback } from "react";
 import { ChevronDown } from "lucide-react";
 
 export function HeroSection() {
+  const videoRef = useRef<HTMLVideoElement>(null);
   const glowShadow = "#ffffff5e 1px 0px 16px";
 
   return (
@@ -10,14 +12,22 @@ export function HeroSection() {
     >
       {/* Background video */}
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
         playsInline
+        // @ts-expect-error webkit vendor attribute for older Safari/iOS
+        webkit-playsinline=""
         className="absolute inset-0 w-full h-full object-cover z-0"
         style={{ opacity: 0.8 }}
-        src="/video.mp4"
-      />
+        onEnded={() => {
+          const v = videoRef.current;
+          if (v) { v.currentTime = 0; v.play(); }
+        }}
+      >
+        <source src="/video.mp4" type="video/mp4" />
+      </video>
 
       {/* Hero content */}
       <div className="relative z-[5] text-center px-5 max-w-4xl flex flex-col items-center">
