@@ -1,22 +1,11 @@
-## Openglobus Homepage
 
-## Available Scripts
+  # Сайт в стиле OpenGloBus
 
-In the project directory, you can run:
+  This is a code bundle for Сайт в стиле OpenGloBus. The original project is available at https://www.figma.com/design/0VanCaGt4ZjYRSyB9wddwE/%D0%A1%D0%B0%D0%B9%D1%82-%D0%B2-%D1%81%D1%82%D0%B8%D0%BB%D0%B5-OpenGloBus.
 
-### `npm start`
+  ## Running the code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Run `npm i` to install the dependencies.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-Your app is ready to be deployed!
+  Run `npm run dev` to start the development server.
+  
