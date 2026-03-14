@@ -15,6 +15,7 @@ export function Navbar() {
   return (
     <>
       <nav
+        aria-label="Main navigation"
         className="w-full z-20 flex items-center justify-between px-6 md:px-16"
         style={{ backgroundColor: "#000000" }}
       >

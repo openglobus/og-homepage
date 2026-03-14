@@ -12,6 +12,7 @@ const socials = [
 export function Footer() {
   return (
     <footer
+      aria-label="Site footer"
       className="border-t border-white/[0.06]"
       style={{ backgroundColor: "#000000" }}
     >
@@ -61,6 +62,8 @@ export function Footer() {
               <a
                 key={s.label}
                 href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label={s.label}
                 className="transition-opacity hover:opacity-80"
               >
