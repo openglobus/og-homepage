@@ -73,7 +73,7 @@ export function HeroSection() {
           </span>
 
           <ChevronDown
-            className="w-6 h-6 transition-colors text-white/25 group-hover:text-white/50"
+            className="w-6 h-6 transition-colors text-white/60 group-hover:text-white/90"
             strokeWidth={1.5}
             style={{ animation: "bounceArrow 2s ease-in-out infinite" }}
           />

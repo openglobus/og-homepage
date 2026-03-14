@@ -102,13 +102,14 @@ function IndustryCard({ item }: { item: (typeof industries)[number] }) {
         {item.desc}
       </p>
 
-      {/* Link */}
+      {/* Link — hidden for now
       <span
         className="mt-auto cursor-pointer transition-colors text-gray-400 group-hover:text-[#2181C4]"
         style={{ fontSize: "0.85rem", fontWeight: 400 }}
       >
         Learn more →
       </span>
+      */}
     </div>
   );
 }
