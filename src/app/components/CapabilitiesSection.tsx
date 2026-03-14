@@ -1,5 +1,3 @@
-import { useTheme } from "./ThemeContext";
-
 function TerrainIcon({ className, strokeWidth }: { className?: string; strokeWidth?: number }) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className={className}>
@@ -143,8 +141,6 @@ const capabilities = [
 ];
 
 export function CapabilitiesSection() {
-  const { isDark } = useTheme();
-
   return (
     <section
       className="py-20 md:py-28 px-6 transition-colors duration-500"
@@ -152,11 +148,18 @@ export function CapabilitiesSection() {
     >
       <div className="max-w-6xl mx-auto">
         <h2
-          className="text-center mb-16 uppercase text-gray-900"
+          className="text-center mb-6 uppercase text-gray-900"
           style={{ fontSize: "clamp(1.1rem, 2vw, 1.5rem)", letterSpacing: "0.5em", fontWeight: 500 }}
         >
           Core Capabilities
         </h2>
+        <p
+          className="text-center max-w-[700px] mx-auto mb-16 text-gray-600"
+          style={{ fontSize: "1.2rem", fontWeight: 300, lineHeight: 1.7 }}
+        >
+          OpenGlobus enables advanced 3D visualization of planetary surfaces,
+          terrain data, industrial infrastructure and dynamic geospatial systems.
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-14">
           {capabilities.map((cap) => (
             <div key={cap.title} className="flex flex-col">

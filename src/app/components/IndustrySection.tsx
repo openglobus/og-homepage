@@ -1,6 +1,5 @@
 import React from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { useTheme } from "./ThemeContext";
 import scientificResearchImg from "@/assets/9acded955993d9eb5f477212f04b7749d95f868e.png";
 import industrialEnergyImg from "@/assets/12822d57bf9f68c9cff1a193dcfbc52c11cdc07d.png";
 import droneSystemsImg from "@/assets/5cf84f2f72a2d8afab32f40c4b767ec2f23ef1e6.png";
@@ -35,23 +34,21 @@ const industries = [
 ];
 
 export function IndustrySection() {
-  const { isDark } = useTheme();
-
   return (
     <section
       id="examples"
-      className="py-20 md:py-28 px-6 transition-colors duration-500"
-      style={{ backgroundColor: isDark ? "#141414" : "#f2f5fb" }}
+      className="py-20 md:py-28 px-6"
+      style={{ backgroundColor: "#f2f5fb" }}
     >
       <div className="max-w-6xl mx-auto">
         <h2
-          className={`text-center mb-6 uppercase ${isDark ? "text-white" : "text-gray-900"}`}
+          className="text-center mb-6 uppercase text-gray-900"
           style={{ fontSize: "clamp(1.1rem, 2vw, 1.5rem)", letterSpacing: "0.5em", fontWeight: 500 }}
         >
           Industry Applications
         </h2>
         <p
-          className={`text-center max-w-[700px] mx-auto mb-16 ${isDark ? "text-white/65" : "text-gray-600"}`}
+          className="text-center max-w-[700px] mx-auto mb-16 text-gray-600"
           style={{ fontSize: "1.2rem", fontWeight: 300, lineHeight: 1.7 }}
         >
           Explore how OpenGlobus is used across industries — from drone operations
@@ -61,14 +58,14 @@ export function IndustrySection() {
         {/* Top row — 3 cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-14 mb-14">
           {industries.slice(0, 3).map((item) => (
-            <IndustryCard key={item.title} item={item} isDark={isDark} />
+            <IndustryCard key={item.title} item={item} />
           ))}
         </div>
 
-        {/* Bottom row — 2 cards centered */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-14 max-w-[720px] mx-auto">
+        {/* Bottom row — 2 cards, centered at lg */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-14 lg:max-w-[750px] lg:mx-auto">
           {industries.slice(3).map((item) => (
-            <IndustryCard key={item.title} item={item} isDark={isDark} />
+            <IndustryCard key={item.title} item={item} />
           ))}
         </div>
       </div>
@@ -76,28 +73,22 @@ export function IndustrySection() {
   );
 }
 
-function IndustryCard({ item, isDark }: { item: (typeof industries)[number]; isDark: boolean }) {
+function IndustryCard({ item }: { item: (typeof industries)[number] }) {
   return (
     <div className="flex flex-col group">
       {/* Image */}
-      <div
-        className={`relative overflow-hidden mb-5 aspect-[16/10] ${
-          isDark ? "rounded-sm" : "rounded-lg shadow-md"
-        }`}
-      >
+      <div className="relative overflow-hidden mb-5 aspect-[16/10] rounded-lg shadow-md">
         <ImageWithFallback
           src={item.img}
           alt={item.title}
-          className={`w-full h-full object-cover group-hover:scale-[1.03] transition-all duration-500 ${
-            isDark ? "opacity-70 group-hover:opacity-90" : "opacity-90 group-hover:opacity-100"
-          }`}
+          className="w-full h-full object-cover group-hover:scale-[1.03] transition-all duration-500 opacity-90 group-hover:opacity-100"
           style={item.title === "Scientific Research" ? { objectPosition: "center 65%", transform: "scale(1.25)" } : undefined}
         />
       </div>
 
       {/* Title */}
       <h3
-        className={isDark ? "text-white mb-2" : "text-gray-800 mb-2"}
+        className="text-gray-800 mb-2"
         style={{ fontSize: "1.25rem", fontWeight: 500, lineHeight: 1.4 }}
       >
         {item.title}
@@ -105,7 +96,7 @@ function IndustryCard({ item, isDark }: { item: (typeof industries)[number]; isD
 
       {/* Description */}
       <p
-        className={isDark ? "text-white/70 mb-4" : "text-gray-600 mb-4"}
+        className="text-gray-600 mb-4"
         style={{ fontSize: "1.15rem", fontWeight: 300, lineHeight: 1.8 }}
       >
         {item.desc}
@@ -113,11 +104,7 @@ function IndustryCard({ item, isDark }: { item: (typeof industries)[number]; isD
 
       {/* Link */}
       <span
-        className={`mt-auto cursor-pointer transition-colors ${
-          isDark
-            ? "text-white/30 group-hover:text-white/60"
-            : "text-gray-400 group-hover:text-[#2181C4]"
-        }`}
+        className="mt-auto cursor-pointer transition-colors text-gray-400 group-hover:text-[#2181C4]"
         style={{ fontSize: "0.85rem", fontWeight: 400 }}
       >
         Learn more →

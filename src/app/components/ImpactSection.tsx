@@ -1,5 +1,3 @@
-import { useTheme } from "./ThemeContext";
-
 function CompassIcon({ className, style }: { className?: string; strokeWidth?: number; style?: React.CSSProperties }) {
   return (
     <svg viewBox="0 0 496 496" className={className} style={style} xmlns="http://www.w3.org/2000/svg">
@@ -73,7 +71,7 @@ const items = [
   {
     icon: CalendarIcon,
     title: "Established (since 2013)",
-    desc: "OpenGlobus was initiated in 2019 and has grown steadily as an open-source 3D geospatial engine through continuous development and refinement.",
+    desc: "OpenGlobus was initiated in 2013 and has grown steadily as an open-source 3D geospatial engine through continuous development and refinement.",
     iconSize: "w-5 h-5",
   },
   {
@@ -97,8 +95,6 @@ const items = [
 ];
 
 export function ImpactSection() {
-  const { isDark } = useTheme();
-
   return (
     <section
       className="py-20 md:py-28 px-6 transition-colors duration-500"

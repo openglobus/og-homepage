@@ -70,7 +70,6 @@ const socials = [
 export function Footer() {
   return (
     <footer
-      id="contacts"
       className="border-t border-white/[0.06]"
       style={{ backgroundColor: "#000000" }}
     >
@@ -88,10 +87,24 @@ export function Footer() {
               </span>
             </div>
             <p
-              className="text-white mb-6"
+              className="text-white mb-2"
               style={{ fontSize: "1rem", fontWeight: 300, lineHeight: 1.6 }}
             >
               Independent Open-Source 3D Geospatial Engine
+            </p>
+            <p
+              className="text-white/60 mb-6"
+              style={{ fontSize: "0.95rem", fontWeight: 300, lineHeight: 1.6 }}
+            >
+              <a
+                href="https://github.com/openglobus/openglobus/blob/master/LICENSE.md"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#4A9ED9] hover:underline"
+              >
+                MIT License
+              </a>
+              {" "}&mdash; free for commercial and non-commercial use
             </p>
             <div style={{ fontSize: "1rem", fontWeight: 300, lineHeight: 2 }}>
               <p className="text-white">Michael Gevlich</p>
