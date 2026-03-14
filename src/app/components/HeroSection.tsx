@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { ChevronDown, Sun, Moon, Menu, X } from "lucide-react";
 import { useTheme } from "./ThemeContext";
+import logoImg from "@/assets/f8a0fd3a5538efa253beec7c4d81b669c48e97cb.png";
 
 const navItems = [
   { label: "about", href: "#about" },
@@ -49,9 +50,14 @@ export function HeroSection() {
       />
       {/* Navigation */}
       <nav
-        className="absolute top-0 left-0 right-0 z-20 flex items-center justify-end px-6 md:px-16"
+        className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-6 md:px-16"
         style={{ backgroundColor: "#000000" }}
       >
+        {/* Logo */}
+        <a href="#" className="py-3">
+          <img src={logoImg} alt="OpenGlobus" className="w-7 h-7" />
+        </a>
+
         {/* Desktop nav */}
         <div className="hidden md:flex gap-8 items-center py-4">
           {navItems.map((item) => (
