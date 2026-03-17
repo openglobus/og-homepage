@@ -127,8 +127,6 @@ export function ContactsPage() {
             className="text-gray-500 mb-4"
             style={{ fontSize: "1.05rem", fontWeight: 300, lineHeight: 1.8 }}
           >
-            OpenGlobus is developed as an independent open-source project.
-            <br />
             I'm always happy to hear about new ideas, experiments, and applications built with the engine.
           </p>
           <p
