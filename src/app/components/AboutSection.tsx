@@ -7,7 +7,7 @@ export function AboutSection() {
     >
       <div className="relative max-w-[900px] mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
         {/* Photo circle */}
-        <img src="/me.png" alt="Michael Gevlich" className="shrink-0 w-28 h-28 md:w-36 md:h-36 rounded-full border-4 border-white shadow-lg object-cover" />
+        <img src="/me.jpg" alt="Michael Gevlich" className="shrink-0 w-28 h-28 md:w-36 md:h-36 rounded-full border-4 border-white shadow-lg object-cover" />
 
         {/* Quote */}
         <blockquote className="border-l-[3px] border-[#2181C4]/30 pl-6">
