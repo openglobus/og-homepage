@@ -7,8 +7,8 @@ import simulationImg from "@/assets/f69a5dd10be98abec8c5ca48c584d90b35d5d5ff.png
 
 const industries = [
   {
-    title: "Drone Systems",
-    desc: "Real-time visualization of aerial vehicles, telemetry streams and terrain interaction. Supports drone navigation, monitoring systems and spatial control interfaces.",
+    title: "Remote & Autonomous Systems",
+    desc: "Real-time visualization of remote vehicles, telemetry streams and terrain interaction. Supports aerial, ground and marine systems, including drones, robotics and spatial control interfaces.",
     img: droneSystemsImg,
   },
   {
