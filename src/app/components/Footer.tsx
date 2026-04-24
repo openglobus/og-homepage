@@ -6,7 +6,7 @@ const socials = [
   { icon: GithubSvg, href: "https://github.com/openglobus", label: "GitHub", size: "w-9 h-9" },
   { icon: LinkedinSvg, href: "https://www.linkedin.com/company/openglobus/", label: "LinkedIn", size: "w-9 h-9" },
   { icon: YoutubeSvg, href: "https://www.youtube.com/@mgevlich", label: "YouTube", size: "w-9 h-9" },
-  { icon: TwitterSvg, href: "https://twitter.com/openglobus", label: "Twitter", size: "w-9 h-9" },
+  { icon: TwitterSvg, href: "https://x.com/openglobus", label: "X", size: "w-5 h-5 text-white" },
 ];
 
 export function Footer() {
