@@ -1,0 +1,26 @@
+name: Deploy to openglobus.org
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy via SSH
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.OG_DEPLOY_HOST }}
+          username: ${{ secrets.OG_DEPLOY_USER }}
+          key: ${{ secrets.OG_DEPLOY_SSH_KEY }}
+          script: |
+            set -e
+
+            cd /var/www/openglobus.org/og-homepage
+            git fetch --prune origin
+            git checkout master
+            git reset --hard origin/master
+
+            npm ci
+            npm run build
