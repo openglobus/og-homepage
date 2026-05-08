@@ -45,7 +45,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="text-[#4A9ED9] hover:underline"
               >
-                MIT License
+                Apache-2.0
               </a>
               {" "}&mdash; free for commercial and non-commercial use
             </p>
