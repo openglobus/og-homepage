@@ -24,3 +24,10 @@ jobs:
 
             npm ci
             npm run build
+
+            if [ ! -f /home/deploy/video.mp4 ]; then
+              echo "File /home/deploy/video.mp4 not found"
+              exit 1
+            fi
+
+            cp /home/deploy/video.mp4 /var/www/openglobus.org/og-homepage/build/video.mp4
